@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Главная BankAD</title>
+    <link rel="stylesheet" href="authorizationClient.css" />
+</head>
+<body>
+
+  <article class="container">
+
+    <!-- Внутрений блок -->
+    <div class="block">
+      <section class="block__item block-item">
+        <h2 class="block-item__title">У вас уже есть аккаунт ?</h2>
+       <button type="button" class="block-item__btn signin-btn">Войти</button>      
+</section>
+      <section class="block__item block-item">
+        <h2 class="block-item__title">У вас нет аккаунта ?</h2>
+        <button class="block-item__btn signup-btn">Зарегистрироваться</button>
+      </section>
+    </div>
+
+    <!-- Блок формы -->
+    <div class="form-box">
+
+      <!-- Форма для входа -->
+      <form action="#" class="form form_signin">
+        <h3 class="form__title">Вход</h3>
+        <p>
+          <input id="emailPhone" type="text" class="form__input" placeholder="Email или номер телефона">
+        </p>
+        <p>
+          <input id="pass" type="password" class="form__input" placeholder="Пароль">
+        </p>
+        <p>
+        <a href="online.html">  <button type="button" class="form__btn">Войти</button> </a>
+        </p>
+      </form>
+
+      <!-- Форма для регистрации -->
+      <form action="#" class="form form_signup">
+        <h3 class="form__title">Регистрация</h3>
+         <p>
+          <input id="familiaReg" type="text" class="form__input" placeholder="Фамилия">
+        </p>
+         <p>
+        <input id="NameReg" type="text" class="form__input" placeholder="Имя">
+        </p>
+         <p>
+        <input id="OtchestvoReg" type="text" class="form__input" placeholder="Отчество">
+        </p> 
+        <p>
+          <input id="emailReg" type="email" class="form__input" placeholder="Email или телефон">
+        </p>
+        <p>
+          <input type="passwordReg" class="form__input" placeholder="Пароль">
+        </p>
+        <p>
+         <a href="online.html">  <button type="button" class="form__btn form__btn_signup">Зарегистрироваться</button></a>
+        </p>
+        
+      </form>
+
+    </div>
+ <!-- Footer -->
+   <div>
+    <footer>
+<p></p>
+        <ul class="menu">
+            <li><a href="main.html">Главная</a></li>
+        </ul>
+        <p>©2023 BankAD</p>
+      
+    </footer>
+    </div>
+  </article>
+ <script src="authorizationClient.js"></script>
+</body>
+ 
+</html>
